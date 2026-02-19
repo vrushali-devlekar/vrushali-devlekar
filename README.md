@@ -7,22 +7,21 @@
 <p>
 <i>Building responsive, scalable and user-focused web applications.</i>
 </p>
-<h2>What I Do</h2>
+<h2><i>What I Do</i></h2>
+
+🔹 Responsive UI Development  
+🔹 REST API Integration  
+🔹 Full-Stack MERN Applications  
+🔹 Deployment & Production Setup  
+
+<h2><i>Featured Projects</i></h2>
 
 
-• Responsive UI Development  
-• REST API Integration  
-• Full-Stack MERN Applications  
-• Deployment & Production Setup  
-
-<h2>Featured Projects</h2>
-
-
-🔹 E-commerce Platform (MERN)  
+🔹 E-commerce Platform  
 🔹 Admin Dashboard with Authentication  
-🔹 Portfolio Website with Animations  
 
-<h2>Tech Stack</h2>
+
+<h2><i>Tech Stack</i></h2>
 <p align="left">
 
 <!-- MERN -->
