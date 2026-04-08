@@ -2,16 +2,11 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&center=true&vCenter=true&width=600&lines=Frontend+Developer;MERN+Stack+Developer" />
 </p>
 
-<!-- <h3>Frontend Developer |<i> MERN Stack </i></h2> -->
+<h3>Frontend Developer |<i> MERN Stack </i></h2> 
 
 <p>
 <i>Building responsive, scalable and user-focused web applications.</i>
 </p>
-<!-- <h2><i>What I Do</i></h2>
-
-
-
-<!-- <h2><i>Featured Projects</i></h2>--> -->
 
 
 <h2><i>Tech Stack</i></h2>
