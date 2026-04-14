@@ -1,13 +1,6 @@
-<p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&center=true&vCenter=true&width=600&lines=Frontend+Developer;MERN+Stack+Developer" />
-</p>
-
-<h3>Frontend Developer |<i> MERN Stack </i></h2> 
-
-<p>
-<i>Building responsive, scalable and user-focused web applications.</i>
-</p>
-
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/parapsychic/ishowoff/">
+  <img src="https://raw.githubusercontent.com/vrushali-devlekar/ishowoff/main/stats.svg">
+</a>
 
 <h2><i>Tech Stack</i></h2>
 <p align="left">
