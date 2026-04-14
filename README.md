@@ -37,7 +37,10 @@
 
 </p>
 
-
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/parapsychic/ishowoff/">
+  <img src="https://raw.githubusercontent.com/{YOUR USERNAME}/{YOUR FORKED REPO: default: ishowoff}/main/stats.svg">
+</a>
+<br/>
 <p align="left">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=vrushali-devlekar&theme=tokyonight" />
 </p>
