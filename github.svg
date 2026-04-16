@@ -1,4 +1,4 @@
-name: Test SVG
+name: Fix SVG
 
 on:
   workflow_dispatch:
@@ -7,26 +7,28 @@ permissions:
   contents: write
 
 jobs:
-  test:
+  fix:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Create SVG
+      - name: Create proper SVG
         run: |
-          cat <<EOF > github.svg
-          <svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
-            <text x="10" y="50" font-size="16">
-              WORKING TEST
-            </text>
-          </svg>
-          EOF
+          printf '%s\n' \
+          '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">' \
+          '<text x="10" y="50" font-size="16">WORKING NOW</text>' \
+          '</svg>' > github.svg
 
-      - name: Push file
+      - name: Show file content (debug)
         run: |
-          git config --global user.name "test"
-          git config --global user.email "test@test.com"
+          echo "---- SVG CONTENT ----"
+          cat github.svg
+
+      - name: Commit & push
+        run: |
+          git config --global user.name "fix"
+          git config --global user.email "fix@test.com"
           git add github.svg
-          git commit -m "test svg"
+          git commit -m "fix svg" || echo "No changes"
           git push
