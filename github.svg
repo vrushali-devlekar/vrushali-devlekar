@@ -1,0 +1,32 @@
+name: Test SVG
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create SVG
+        run: |
+          cat <<EOF > github.svg
+          <svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
+            <text x="10" y="50" font-size="16">
+              WORKING TEST
+            </text>
+          </svg>
+          EOF
+
+      - name: Push file
+        run: |
+          git config --global user.name "test"
+          git config --global user.email "test@test.com"
+          git add github.svg
+          git commit -m "test svg"
+          git push
